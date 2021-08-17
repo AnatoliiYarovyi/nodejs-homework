@@ -34,7 +34,6 @@ function invokeAction({ action, id, name, email, phone }) {
 
     case 'remove':
       removeContact(id);
-      console.log(typeof id);
       break;
 
     default:
